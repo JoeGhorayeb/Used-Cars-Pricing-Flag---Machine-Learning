@@ -1,12 +1,12 @@
-##Souk-Sense A machine learning project that estimates the fair market price of a used car and flags whether a listing is overpriced, underpriced, or fairly priced — tuned for the Lebanese resale market. It factors in brand, model, age, mileage, engine size, fuel type, transmission, and running costs to output a fair-price estimate and a pricing verdict through a Streamlit dashboard.
+## Souk-Sense A machine learning project that estimates the fair market price of a used car and flags whether a listing is overpriced, underpriced, or fairly priced — tuned for the Lebanese resale market. It factors in brand, model, age, mileage, engine size, fuel type, transmission, and running costs to output a fair-price estimate and a pricing verdict through a Streamlit dashboard.
 
 🚗 Souk Sense — Used Car Overpricing Detector A machine learning project that predicts what a used car should cost, and tells you how far off a real listing is from that number — scaled for the Lebanese market, where import duties and VAT roughly double sticker prices from source markets.
 
-###Overview
+### Overview
 
 Used car listings are noisy. Two nearly identical cars can be priced thousands of dollars apart depending on the seller, the platform, or how badly someone needs to sell. This project puts a number on what "fair" actually looks like, so a listing can be judged against the market instead of against a gut feeling.
 
-The model outputs two things:
+### The model outputs two things:
 
 Estimated Fair Price — a dollar figure predicted from the car's specs
 Verdict — whether the listing is Overpriced, Underpriced, or Fairly Priced, based on how far the asking price deviates from that estimate
@@ -25,7 +25,7 @@ Features Used
 
 Brand · model (frequency-encoded) · year · mileage · engineSize · fuelType · transmission · tax · mpg
 
-Web App
+ ### Web App
 
 Built with Streamlit — enter a car's specs and its listing price, and get an instant verdict with a color-coded result card and a deviation gauge showing exactly where the listing lands between underpriced and overpriced.
 
